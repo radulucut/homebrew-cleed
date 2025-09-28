@@ -5,20 +5,20 @@
 class Cleed < Formula
   desc "A simple feed reader for the command line"
   homepage "https://github.com/radulucut/cleed"
-  version "0.4.3"
+  version "0.4.4"
 
   on_macos do
     on_intel do
-      url "https://github.com/radulucut/cleed/releases/download/v0.4.3/cleed_Darwin_x86_64.tar.gz"
-      sha256 "6557c3acd853f2e3dcebb99334f6743285c8ba4270fd561a5b73aa66adc7c7fb"
+      url "https://github.com/radulucut/cleed/releases/download/v0.4.4/cleed_Darwin_x86_64.tar.gz"
+      sha256 "3826a96d2f14ab6ae6e42ad7390b3c85d6049cd0b0e854302d1ca46140c72a4a"
 
       def install
         bin.install "cleed"
       end
     end
     on_arm do
-      url "https://github.com/radulucut/cleed/releases/download/v0.4.3/cleed_Darwin_arm64.tar.gz"
-      sha256 "38df048e8dc1534257c94123d4a4187e77b03472224ba6b5723f08691fe7684e"
+      url "https://github.com/radulucut/cleed/releases/download/v0.4.4/cleed_Darwin_arm64.tar.gz"
+      sha256 "0a0855867ae828b77400a50d3c8badfc981ea3bd443a708280d3aec2d02d1988"
 
       def install
         bin.install "cleed"
@@ -29,8 +29,8 @@ class Cleed < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/radulucut/cleed/releases/download/v0.4.3/cleed_Linux_x86_64.tar.gz"
-        sha256 "4e4b2d26c123f5418d02cc680888a246443173cb853393aab2de3e424e333806"
+        url "https://github.com/radulucut/cleed/releases/download/v0.4.4/cleed_Linux_x86_64.tar.gz"
+        sha256 "235c9945558fb16e853e1d19b93bd5e16badde70257413eece327a44420640a4"
 
         def install
           bin.install "cleed"
@@ -39,8 +39,8 @@ class Cleed < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/radulucut/cleed/releases/download/v0.4.3/cleed_Linux_arm64.tar.gz"
-        sha256 "7ed30e515dd223b05694a0fd8c6a3cc7eda034bf4f53d0d46c68d40bec9f446c"
+        url "https://github.com/radulucut/cleed/releases/download/v0.4.4/cleed_Linux_arm64.tar.gz"
+        sha256 "9ace3b4434136ac238f9065c13fec0a2c2166ce89da11ed81688c6f9f10090dc"
 
         def install
           bin.install "cleed"
